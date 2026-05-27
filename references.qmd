@@ -1,35 +1,126 @@
 ---
-title: "参考文献与官方来源"
+title: "参考文献与资料来源"
 ---
 
-本页只列当前版本四张示范卡片使用的核心来源。正式论文写作前，应重新核验政策原文、数据口径和文献版本。
+# 参考文献与资料来源
 
-## 官方来源
+本页列出项目层面的主要资料来源、方法类参考文献，以及重点政策卡片中使用的代表性资料。完整政策汇编中每条政策的官方出处，见「政策汇编」页面中各政策条目下的「官方来源」。
 
-- USTR. China Section 301-Tariff Actions and Exclusion Process. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions).
-- USTR. `$34 Billion Trade Action (List 1)`. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/section-301-china/34-billion-trade-action).
-- 生态环境部. 2016 年第一批中央环境保护督察进驻信息. [Link](https://www.mee.gov.cn/gkml/sthjbgw/qt/201607/t20160719_360975.htm).
-- 中国证监会. 关于在上海证券交易所设立科创板并试点注册制的实施意见. [Link](https://www.csrc.gov.cn/csrc/c101950/c1048046/content.shtml).
-- 上海证券交易所科创板. [Link](https://star.sse.com.cn/).
-- 国家医保局. 关于国家组织药品集中采购试点相关问题的政策问答. [Link](https://www.nhsa.gov.cn/art/2018/12/8/art_147_857.html).
-- 辽宁省医疗保障局. `4+7` 城市药品集中采购工作启动. [Link](https://ybj.ln.gov.cn/ybj/zxzx/gzdt/F18AFFEB61C64CE98315DE058D1D63B2/index.shtml).
+本项目的基本原则是：政策事实优先使用官方文件、监管机构公告和原始政策清单；研究设计说明尽量参考已有论文和成熟的计量方法文献。若某条政策后续扩展为完整政策卡片，则在对应卡片中补充更细的政策文件、数据来源和代表性论文。
 
-## 代表性文献
+## 1. 官方资料来源入口
 
-- Fajgelbaum, P. D., & Khandelwal, A. K. (2022). The economic impacts of the US–China trade war. *Annual Review of Economics*, 14, 205-228. [Link](https://doi.org/10.1146/annurev-economics-051420-110410), [Google](<https://scholar.google.com/scholar?q=The+economic+impacts+of+the+US-China+trade+war>).
+这些网站是整理政策事实时最常用的来源。它们主要用于核验政策名称、发布日期、实施日期、试点地区、适用对象、产品清单和监管规则。
 
-- Sheng, L., Song, H., & Zheng, X. (2025). How did Chinese exporters manage the trade war? *Journal of International Money and Finance*, 153, 103300. [Link](https://doi.org/10.1016/j.jimonfin.2025.103300), [Google](<https://scholar.google.com/scholar?q=How+did+Chinese+exporters+manage+the+trade+war>).
+- 国务院政策文件库. [Link](https://www.gov.cn/zhengce/zhengcewenjianku/)
+- 国家法律法规数据库. [Link](https://flk.npc.gov.cn/)
+- 国家发展和改革委员会. [Link](https://www.ndrc.gov.cn/)
+- 财政部. [Link](https://www.mof.gov.cn/)
+- 国家税务总局. [Link](https://www.chinatax.gov.cn/)
+- 生态环境部. [Link](https://www.mee.gov.cn/)
+- 中国证券监督管理委员会. [Link](https://www.csrc.gov.cn/)
+- 中国人民银行. [Link](https://www.pbc.gov.cn/)
+- 国家金融监督管理总局. [Link](https://www.nfra.gov.cn/)
+- 国家医疗保障局. [Link](https://www.nhsa.gov.cn/)
+- 商务部. [Link](https://www.mofcom.gov.cn/)
+- 工业和信息化部. [Link](https://www.miit.gov.cn/)
+- 科学技术部. [Link](https://www.most.gov.cn/)
+- 美国贸易代表办公室. [Link](https://ustr.gov/)
 
-- Qian, X., Ding, H., & Ding, Z. (2023). Governmental inspection and firm environmental protection expenditure: Evidence from China. *Economic Modelling*, 123, 106284. [Link](https://doi.org/10.1016/j.econmod.2023.106284), [Google](<https://scholar.google.com/scholar?q=Governmental+inspection+and+firm+environmental+protection+expenditure+Evidence+from+China>).
+## 2. 方法类参考文献
 
-- Wang, J., Dong, H., & Xiao, R. (2022). Central environmental inspection and corporate environmental investment: Evidence from Chinese listed companies. *Environmental Science and Pollution Research*, 29, 56419-56429. [Link](https://doi.org/10.1007/s11356-022-19538-8), [Google](<https://scholar.google.com/scholar?q=Central+environmental+inspection+and+corporate+environmental+investment+evidence+from+Chinese+listed+companies>).
+本项目涉及的常见研究设计包括 DID、多期 DID、事件研究、三重差分、暴露度设计和 shift-share 设计。下面文献主要用于理解这些方法的适用场景、识别假设和常见误用。
 
-- Li, J., & Li, R. (2022). IPO policy and IPO underpricing: Evidence from the registration-based IPO reform in China. *Finance Research Letters*, 47, 102623. [Link](https://doi.org/10.1016/j.frl.2021.102623), [Google](<https://scholar.google.com/scholar?q=IPO+policy+and+IPO+underpricing+Evidence+from+the+registration-based+IPO+reform+in+China>).
+### 2.1 DID 与多期 DID
 
-- Li, Q., & He, M. (2024). The registration-based IPO reform and the cost of equity capital: Evidence from China. *Finance Research Letters*, 67, 105790. [Link](https://doi.org/10.1016/j.frl.2024.105790), [Google](<https://scholar.google.com/scholar?q=The+registration-based+IPO+reform+and+the+cost+of+equity+capital+evidence+from+China>).
+- Angrist, J. D., & Pischke, J.-S. (2009). Mostly harmless econometrics: An empiricist’s companion. Princeton University Press. [Google](<https://scholar.google.com/scholar?q=Mostly+Harmless+Econometrics+An+Empiricist%27s+Companion>).
 
-- Hu, Y., Chen, S., Qiu, F., et al. (2021). Will the volume-based procurement policy promote pharmaceutical firms’ R&D investment in China? An event study approach. *International Journal of Environmental Research and Public Health*, 18(22), 12037. [Link](https://doi.org/10.3390/ijerph182212037), [Google](<https://scholar.google.com/scholar?q=Will+the+Volume-Based+Procurement+Policy+Promote+Pharmaceutical+Firms+R%26D+Investment+in+China>).
+- Bertrand, M., Duflo, E., & Mullainathan, S. (2004). How much should we trust differences-in-differences estimates? Quarterly Journal of Economics, 119(1), 249–275. [Link](https://doi.org/10.1162/003355304772839588), [Google](<https://scholar.google.com/scholar?q=How+Much+Should+We+Trust+Differences-in-Differences+Estimates>).
 
-- Li, X., & Xu, J. (2024). Does China’s national volume-based drug procurement policy promote or hinder pharmaceutical innovation? *Frontiers in Pharmacology*, 15, 1392239. [Link](https://doi.org/10.3389/fphar.2024.1392239), [Google](<https://scholar.google.com/scholar?q=Does+China%27s+national+volume-based+drug+procurement+policy+promote+or+hinder+pharmaceutical+innovation>).
+- Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-differences with multiple time periods. Journal of Econometrics, 225(2), 200–230. [Link](https://doi.org/10.1016/j.jeconom.2020.12.001), [Google](<https://scholar.google.com/scholar?q=Difference-in-Differences+with+Multiple+Time+Periods>).
 
-- Qiu, F., Chen, S., Li, Y., Wang, X., & Zhu, M. (2025). The impact of the centralized volume-based procurement policy on Chinese pharmaceutical manufacturing firms’ R&D investment: A difference-in-differences approach. *PLOS ONE*, 20(1), e0315811. [Link](https://doi.org/10.1371/journal.pone.0315811), [Google](<https://scholar.google.com/scholar?q=The+impact+of+the+centralized+volume-based+procurement+policy+on+Chinese+pharmaceutical+manufacturing+firms+R%26D+investment>).
+- de Chaisemartin, C., & D’Haultfoeuille, X. (2020). Two-way fixed effects estimators with heterogeneous treatment effects. American Economic Review, 110(9), 2964–2996. [Link](https://doi.org/10.1257/aer.20181169), [Google](<https://scholar.google.com/scholar?q=Two-way+Fixed+Effects+Estimators+with+Heterogeneous+Treatment+Effects>).
+
+- Goodman-Bacon, A. (2021). Difference-in-differences with variation in treatment timing. Journal of Econometrics, 225(2), 254–277. [Link](https://doi.org/10.1016/j.jeconom.2021.03.014), [Google](<https://scholar.google.com/scholar?q=Difference-in-Differences+with+Variation+in+Treatment+Timing>).
+
+- Sun, L., & Abraham, S. (2021). Estimating dynamic treatment effects in event studies with heterogeneous treatment effects. Journal of Econometrics, 225(2), 175–199. [Link](https://doi.org/10.1016/j.jeconom.2020.09.006), [Google](<https://scholar.google.com/scholar?q=Estimating+Dynamic+Treatment+Effects+in+Event+Studies+with+Heterogeneous+Treatment+Effects>).
+
+- Borusyak, K., Jaravel, X., & Spiess, J. (2024). Revisiting event-study designs: Robust and efficient estimation. Review of Economic Studies, 91(6), 3253–3285. [Link](https://doi.org/10.1093/restud/rdae007), [Google](<https://scholar.google.com/scholar?q=Revisiting+Event-Study+Designs+Robust+and+Efficient+Estimation>).
+
+### 2.2 事件研究
+
+- MacKinlay, A. C. (1997). Event studies in economics and finance. Journal of Economic Literature, 35(1), 13–39. [Google](<https://scholar.google.com/scholar?q=Event+Studies+in+Economics+and+Finance+MacKinlay+1997>).
+
+- Kothari, S. P., & Warner, J. B. (2007). Econometrics of event studies. In B. E. Eckbo (Ed.), Handbook of corporate finance: Empirical corporate finance (Vol. 1, pp. 3–36). Elsevier. [Link](https://doi.org/10.1016/B978-0-444-53265-7.50015-9), [Google](<https://scholar.google.com/scholar?q=Econometrics+of+Event+Studies+Kothari+Warner>).
+
+### 2.3 shift-share 与暴露度设计
+
+- Goldsmith-Pinkham, P., Sorkin, I., & Swift, H. (2020). Bartik instruments: What, when, why, and how. American Economic Review, 110(8), 2586–2624. [Link](https://doi.org/10.1257/aer.20181047), [Google](<https://scholar.google.com/scholar?q=Bartik+Instruments+What+When+Why+and+How>).
+
+- Borusyak, K., Hull, P., & Jaravel, X. (2022). Quasi-experimental shift-share research designs. Review of Economic Studies, 89(1), 181–213. [Link](https://doi.org/10.1093/restud/rdab030), [Google](<https://scholar.google.com/scholar?q=Quasi-experimental+Shift-Share+Research+Designs>).
+
+- Adão, R., Kolesár, M., & Morales, E. (2019). Shift-share designs: Theory and inference. Quarterly Journal of Economics, 134(4), 1949–2010. [Link](https://doi.org/10.1093/qje/qjz025), [Google](<https://scholar.google.com/scholar?q=Shift-Share+Designs+Theory+and+Inference>).
+
+## 3. 重点政策卡片资料来源
+
+本节列出当前重点政策卡片使用的主要官方来源和代表性文献。随着政策卡片扩展，本节会继续补充。
+
+### 3.1 中美贸易摩擦 301 关税清单
+
+- Office of the United States Trade Representative. Section 301 tariff actions and exclusion process. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions).
+
+- Office of the United States Trade Representative. Section 301 investigation: China’s acts, policies, and practices related to technology transfer, intellectual property, and innovation. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/section-301-china).
+
+- Fajgelbaum, P. D., & Khandelwal, A. K. (2022). The economic impacts of the US–China trade war. Annual Review of Economics, 14, 205–228. [Link](https://doi.org/10.1146/annurev-economics-051420-110410), [Google](<https://scholar.google.com/scholar?q=The+Economic+Impacts+of+the+US-China+Trade+War>).
+
+- Amiti, M., Redding, S. J., & Weinstein, D. E. (2020). Who’s paying for the US tariffs? A longer-term perspective. AEA Papers and Proceedings, 110, 541–546. [Link](https://doi.org/10.1257/pandp.20201018), [Google](<https://scholar.google.com/scholar?q=Who%27s+Paying+for+the+US+Tariffs+A+Longer-Term+Perspective>).
+
+### 3.2 中央生态环境保护督察
+
+- 生态环境部. 8 个中央环境保护督察组全部完成督察进驻. [Link](https://www.mee.gov.cn/gkml/sthjbgw/qt/201607/t20160719_360975.htm).
+
+- 生态环境部. 中央生态环境保护督察工作相关信息. [Link](https://www.mee.gov.cn/ywdt/).
+
+- Chen, Z., Kahn, M. E., Liu, Y., & Wang, Z. (2018). The consequences of spatially differentiated water pollution regulation in China. Journal of Environmental Economics and Management, 88, 468–485. [Link](https://doi.org/10.1016/j.jeem.2018.01.010), [Google](<https://scholar.google.com/scholar?q=The+Consequences+of+Spatially+Differentiated+Water+Pollution+Regulation+in+China>).
+
+- Greenstone, M., He, G., Jia, R., & Liu, T. (2022). Can technology solve the principal-agent problem? Evidence from China’s war on air pollution. American Economic Review: Insights, 4(1), 54–70. [Link](https://doi.org/10.1257/aeri.20200373), [Google](<https://scholar.google.com/scholar?q=Can+Technology+Solve+the+Principal-Agent+Problem+Evidence+from+China%27s+War+on+Air+Pollution>).
+
+### 3.3 科创板并试点注册制
+
+- 中国证券监督管理委员会. 关于在上海证券交易所设立科创板并试点注册制的实施意见. [Link](https://www.csrc.gov.cn/csrc/c101950/c1048046/content.shtml).
+
+- 上海证券交易所. 科创板股票发行上市审核规则与相关业务规则. [Link](https://www.sse.com.cn/star/).
+
+- 中国证券监督管理委员会. 全面实行股票发行注册制相关制度规则. [Link](https://www.csrc.gov.cn/csrc/c100028/c7123213/content.shtml).
+
+- Chemmanur, T. J., Hu, G., & Huang, J. (2010). The role of institutional investors in initial public offerings. Review of Financial Studies, 23(12), 4496–4540. [Link](https://doi.org/10.1093/rfs/hhq109), [Google](<https://scholar.google.com/scholar?q=The+Role+of+Institutional+Investors+in+Initial+Public+Offerings>).
+
+- Ljungqvist, A. (2007). IPO underpricing. In B. E. Eckbo (Ed.), Handbook of corporate finance: Empirical corporate finance (Vol. 1, pp. 375–422). Elsevier. [Link](https://doi.org/10.1016/B978-0-444-53265-7.50021-4), [Google](<https://scholar.google.com/scholar?q=IPO+Underpricing+Ljungqvist+2007>).
+
+### 3.4 国家组织药品集中带量采购
+
+- 国家医疗保障局. 国家组织药品集中采购试点有关情况说明. [Link](https://www.nhsa.gov.cn/art/2018/12/8/art_14_569.html).
+
+- 国家医疗保障局. 关于国家组织药品集中采购和使用试点医保配套措施的意见. [Link](https://www.nhsa.gov.cn/art/2019/3/5/art_37_952.html).
+
+- 辽宁省医疗保障局. 4+7 城市药品集中采购文件发布及相关试点信息. [Link](https://ybj.ln.gov.cn/ybj/zxzx/gzdt/F18AFFEB61C64CE98315DE058D1D63B2/index.shtml).
+
+- Dubois, P., de Mouzon, O., Scott-Morton, F., & Seabright, P. (2015). Market size and pharmaceutical innovation. RAND Journal of Economics, 46(4), 844–871. [Link](https://doi.org/10.1111/1756-2171.12113), [Google](<https://scholar.google.com/scholar?q=Market+Size+and+Pharmaceutical+Innovation>).
+
+- Acemoglu, D., & Linn, J. (2004). Market size in innovation: Theory and evidence from the pharmaceutical industry. Quarterly Journal of Economics, 119(3), 1049–1090. [Link](https://doi.org/10.1162/0033553041502144), [Google](<https://scholar.google.com/scholar?q=Market+Size+in+Innovation+Theory+and+Evidence+from+the+Pharmaceutical+Industry>).
+
+## 4. 数据来源说明
+
+政策冲击库本身不直接提供微观研究数据，但在字段中标注了常见可连接数据源。不同研究者应根据研究问题和数据权限自行核验。
+
+常见数据接口包括：
+
+- 上市公司财务与治理数据：CSMAR、Wind、巨潮资讯、交易所公告；
+- 企业微观数据：工业企业数据库、工商注册数据、企业年报数据；
+- 贸易数据：中国海关数据库、UN Comtrade、BACI；
+- 创新数据：国家知识产权局专利数据、上市公司专利匹配数据；
+- 环境数据：空气质量、水质断面、排污许可、重点排污单位、环保处罚；
+- 医疗与药品数据：国家医保局公告、药品采购平台、药品销售数据库；
+- 地区数据：城市统计年鉴、区县统计年鉴、财政统计资料。
+
+需要说明的是，政策冲击库中的「数据源」字段只提示可能的数据接口，不代表所有数据都能公开获得，也不代表这些数据已经完成清洗和匹配。正式研究中仍需核验数据口径、时间范围、编码体系和样本覆盖。

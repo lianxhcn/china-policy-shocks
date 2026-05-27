@@ -1,19 +1,39 @@
 project:
   type: website
   output-dir: _site
-  pre-render: python scripts/build_appendix.py
+
+  # 每次 quarto render 前自动运行：
+  # 1. 从 Excel 生成 CSV
+  # 2. 从 Excel 生成 appendix_policy_list.md
+  pre-render:
+    - python scripts/build_appendix.py
+
+  # 只渲染网站需要的页面，避免 README、模板、旧 md 文件被误渲染
   render:
     - index.qmd
     - database.qmd
     - methods.qmd
     - cards.qmd
+    - appendix_policy_list.md
     - references.qmd
     - cards/*.qmd
+
+  # 确保数据文件被复制到 _site/data/，供网页下载
+  resources:
+    - data/*.xlsx
+    - data/*.csv
+    - data/*.md
+
 website:
   title: "China Policy Shocks"
   site-url: "https://lianxhcn.github.io/china-policy-shocks/"
   repo-url: "https://github.com/lianxhcn/china-policy-shocks"
+  repo-branch: main
+
+  search: true
+
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: 首页
@@ -23,18 +43,33 @@ website:
         text: 方法说明
       - href: cards.qmd
         text: 政策卡片
+      - href: appendix_policy_list.md
+        text: 政策汇编
       - href: references.qmd
         text: 参考文献
+
     right:
       - icon: github
         href: "https://github.com/lianxhcn/china-policy-shocks"
+        aria-label: GitHub
+
+  page-footer:
+    left: "China Policy Shocks"
+    right: "Built with Quarto and GitHub Pages"
 
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
     toc-depth: 3
-    number-sections: true
+    number-sections: false
     smooth-scroll: true
     code-copy: true
-    css: styles.css
+    code-overflow: wrap
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+
+editor: visual
