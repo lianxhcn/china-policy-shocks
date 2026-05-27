@@ -1,0 +1,257 @@
+---
+title: "连享会相关资源"
+---
+
+# 连享会相关资源
+
+本页整理与政策评估、因果推断、论文复现和实证研究设计相关的连享会推文，作为 China Policy Shocks 数据库的扩展阅读。
+
+::: {.resource-note}
+更多内容可访问 [连享会主页](https://www.lianxh.cn)，也可以在连享会站内搜索政策评估、DID、IV、RDD、合成控制、论文复现等关键词。
+:::
+
+## 政策评估与综合入口
+
+::: {.resource-list}
+
+- 张祖冲, 2024, [离群值稳健IV估计量及其在因果推断中应用-robustAR](https://www.lianxh.cn/details/1521.html).
+- 张祖冲, 2024, [离群值稳健IV估计量及其在因果推断中应用-robustAR](https://www.lianxh.cn/details/1522.html).
+- 张祖冲, 2024, [离群值稳健IV估计量及其在因果推断中应用-robustAR-R语言](https://www.lianxh.cn/details/1514.html).
+- 连享会, 2022, [NEW-面板数据因果推断：从入门到精通](https://www.lianxh.cn/details/1048.html).
+- 徐安宇, 2022, [Stata论文复现：政策评估中的交互效应](https://www.lianxh.cn/details/1131.html).
+- 陈卓然, 2022, [因果推断：混杂因素敏感性分析实操(下)-tesensitivity](https://www.lianxh.cn/details/1032.html).
+- 卢梅, 2020, [DID边际分析：让政策评价结果更加丰满](https://www.lianxh.cn/details/192.html).
+- 连享会, 2020, [Stata：政策评价文献-(Program-Evaluation)](https://www.lianxh.cn/details/389.html).
+- 连享会, 2020, [经典文献回顾：政策评价-因果推断的计量方法](https://www.lianxh.cn/details/428.html).
+
+:::
+
+## DID 与事件研究
+
+::: {.resource-list}
+
+- 雷诺, 2026, [多时间点 DID 的统计检验](https://www.lianxh.cn/details/1740.html).
+- 罗宇恒, 2025, [Bayes+IPW：如何贝叶斯倾向得分和逆概率加权估计政策效应](https://www.lianxh.cn/details/1693.html).
+- 高君, 2025, [Big-Bad-Bank并不稳健：DID元老级文献的脆弱](https://www.lianxh.cn/details/1548.html).
+- 赵俊, 2025, [cate：政策学习与条件平均处理效应-Stata19新功能](https://www.lianxh.cn/details/1657.html).
+- 李梦玉, 2025, [unitdid：以个体事件反应为因变量的 DID 估计方法](https://www.lianxh.cn/details/1708.html).
+- 赵文琦, 2025, [平行趋势不显著≠平行趋势成立：pretrends 带你看清 DID 风险](https://www.lianxh.cn/details/1704.html).
+- 张逸林, 2025, [异质性分析的新视角：政策效应分解](https://www.lianxh.cn/details/1684.html).
+- 李萌, 2025, [论文推介：包含连续处理变量的 DID](https://www.lianxh.cn/details/1535.html).
+- 刘梦蝶, 2024, [DID大餐：49 篇 QJE 论文汇总（2018-2022）](https://www.lianxh.cn/details/1363.html).
+- 雷诺, 2024, [DID：考虑空间相关性的倍分法-B550](https://www.lianxh.cn/details/1441.html).
+- 吴小齐, 2024, [R语言：政策效应外推及外部有效性-tpate](https://www.lianxh.cn/details/1511.html).
+- 康希, 2024, [Stata-DID：异质性多期估计方法-Bacon分解](https://www.lianxh.cn/details/1347.html).
+- 王烨文, 2024, [Stata：平行趋势敏感性检验-honestdid](https://www.lianxh.cn/details/1467.html).
+- 严安冬, 2024, [Stata：异质性DID代码详解](https://www.lianxh.cn/details/1399.html).
+- 高瑜, 2024, [eventbaseline：事件研究的估算与可视化](https://www.lianxh.cn/details/1486.html).
+- 周瑾, 2024, [sdid_event命令：合成DID事件研究法](https://www.lianxh.cn/details/1482.html).
+- 高瑜, 2024, [事件研究和多期DID可视化新命令](https://www.lianxh.cn/details/1507.html).
+- 杨云帆, 2024, [地方选举的兴衰——交叠DID的应用](https://www.lianxh.cn/details/1517.html).
+- 吴梦萱, 2024, [纠结！DID 中取对数还是不取对数？论文推介](https://www.lianxh.cn/details/1340.html).
+- 金钊, 2023, [AEJ论文推介：DID-安慰剂检验-机制分析-中国增值税改革对企业投资和生产率的影响](https://www.lianxh.cn/details/1254.html).
+- 周嘉怡, 2023, [Stata：各种DID估计量的比较分析](https://www.lianxh.cn/details/1097.html).
+- 李闯, 2023, [多时点DID保姆级教程(上)-平行趋势检验](https://www.lianxh.cn/details/1201.html).
+- 李闯, 2023, [多时点DID保姆级教程(下)-安慰剂检验](https://www.lianxh.cn/details/1163.html).
+- 庞小冬, 2023, [组内队列DID：高知女性愿意生更多孩子吗？-within cohort DID](https://www.lianxh.cn/details/1293.html).
+- 刘依云, 2023, [论文复现：土豆对人口与城市化的贡献-连续DID应用](https://www.lianxh.cn/details/1190.html).
+- 杨云帆, 2023, [论文复现：多期DID应用之地方选举的兴衰](https://www.lianxh.cn/details/1321.html).
+- 郭楚玉, 2022, [DID-倍分法：事前趋势检验的局限性和诊断](https://www.lianxh.cn/details/1103.html).
+- 张子楠, 2022, [DID偏误问题：两时期DID的双重稳健估计量(上)-drdid](https://www.lianxh.cn/details/1024.html).
+- 张子楠, 2022, [DID偏误问题：多时期DID的双重稳健估计量(下)-csdid](https://www.lianxh.cn/details/1027.html).
+- 彭晴, 2022, [DID新进展：异质性多期DID估计的新方法-csdid](https://www.lianxh.cn/details/1071.html).
+- 杜静玄, 2022, [DID最新进展：异质性处理条件下的双向固定效应DID估计量 (TWFEDD)](https://www.lianxh.cn/details/846.html).
+- 苗妙, 2022, [DID的陷阱和注意事项](https://www.lianxh.cn/details/142.html).
+- 陈卓然, 2022, [Stata+R：合成DID原理及实现-sdid](https://www.lianxh.cn/details/970.html).
+- 杜静玄, 2022, [Stata：Mundlak方法的DID-jwdid](https://www.lianxh.cn/details/1116.html).
+- 杜静玄, 2022, [Stata：事件研究法的稳健有效估计量-did_imputation](https://www.lianxh.cn/details/853.html).
+- 刘欣妍, 史柯, 2022, [Stata：双向固定效应模型中是否要控制公司年龄？](https://www.lianxh.cn/details/942.html).
+- 梁淑珍, 2022, [Stata：异质性稳健DID估计量方法汇总](https://www.lianxh.cn/details/823.html).
+- 巴宁, 2022, [Stata：空间双重差分模型(Spatial DID)-xsmle](https://www.lianxh.cn/details/840.html).
+- 宋燕欣, 2021, [DIDM：多期多个体倍分法-did_multiplegt](https://www.lianxh.cn/details/601.html).
+- 胡文涛, 2021, [DID功效计算中的序列相关问题-T407](https://www.lianxh.cn/details/627.html).
+- 李胜胜, 2021, [DID陷阱解析-L111](https://www.lianxh.cn/details/606.html).
+- 周涛, 2021, [DID：仅有几个实验组样本的倍分法 (双重差分)](https://www.lianxh.cn/details/504.html).
+- 曹昊煜, 2021, [Fuzzy DID：模糊倍分法](https://www.lianxh.cn/details/536.html).
+- 丁雅文, 2021, [Stata-DID：不同处理时点不同持久期的倍分法（flexpaneldid）](https://www.lianxh.cn/details/674.html).
+- 胡文涛, 2021, [Stata倍分法新趋势：did2s-两阶段双重差分模型](https://www.lianxh.cn/details/679.html).
+- 张超, 2021, [Stata倍分法：全国一刀切的DID](https://www.lianxh.cn/details/649.html).
+- 袁洛琪, 2021, [Stata：DID入门教程](https://www.lianxh.cn/details/321.html).
+- 张超, 2021, [Stata：RDD-DID-断点回归与倍分法完美结合](https://www.lianxh.cn/details/763.html).
+- 郑宇, 2021, [Stata：平行趋势不满足？主成分DID来帮你！- pcdid](https://www.lianxh.cn/details/760.html).
+- 胡艺泽, 2021, [倍分法：DID是否需要随机分组？](https://www.lianxh.cn/details/567.html).
+- 胡文涛, 2021, [倍分法：交错DID与Stata操作](https://www.lianxh.cn/details/638.html).
+- 邹恬华, 2021, [多期DID文献解读：含铅汽油与死亡率和社会成本-L113](https://www.lianxh.cn/details/622.html).
+- 张梓瑶, 2021, [如何在R语言中实现多期DID](https://www.lianxh.cn/details/829.html).
+- 袁子晴, 2021, [考虑溢出效应的倍分法：spillover-robust DID](https://www.lianxh.cn/details/499.html).
+- 秦利宾, 2021, [队列DID：以知识青年“上山下乡”为例-T401](https://www.lianxh.cn/details/639.html).
+- 展一帆, 2021, [面板PSM+DID如何做匹配？](https://www.lianxh.cn/details/592.html).
+- 连享会, 2020, [Abadie新作：简明IV,DID,RDD教程和综述](https://www.lianxh.cn/details/433.html).
+- 安贤娟, 2020, [Big Bad Banks：多期 DID 经典论文介绍](https://www.lianxh.cn/details/165.html).
+- 黄欣怡, 2020, [Stata 倍分法DID: 不满足平行趋势假设咋办？](https://www.lianxh.cn/details/129.html).
+- 张伟广, 2020, [Stata：双重差分的固定效应模型-(DID)](https://www.lianxh.cn/details/381.html).
+- 笑花心, 2020, [tfdiff：多期DID的估计及图示](https://www.lianxh.cn/details/464.html).
+- 伊凌雪, 2020, [倍分法(DID)的标准误：不能忽略空间相关性](https://www.lianxh.cn/details/231.html).
+- 连享会, 2020, [倍分法DID：一组参考文献](https://www.lianxh.cn/details/439.html).
+- 朱学贵, 2020, [多期DID之安慰剂检验、平行趋势检验](https://www.lianxh.cn/details/259.html).
+- 张远远, 2019, [Stata：多期倍分法 (DID) 详解及其图示](https://www.lianxh.cn/details/76.html).
+- 王昆仑, 2019, [倍分法DID详解 (一)：传统 DID](https://www.lianxh.cn/details/73.html).
+- 王昆仑, 2019, [倍分法DID详解 (三)：多时点 DID (渐进DID) 的进一步分析](https://www.lianxh.cn/details/9.html).
+- 王昆仑, 2019, [倍分法DID详解 (二)：多时点 DID (渐进DID)](https://www.lianxh.cn/details/72.html).
+- 侯新烁, 2019, [多期DID：平行趋势检验图示](https://www.lianxh.cn/details/112.html).
+
+:::
+
+## 工具变量、内生性与 Shift-Share
+
+::: {.resource-list}
+
+- 连玉君, 2026, [IV 和 2SLS 估计中的 R2 为负怎么办？](https://www.lianxh.cn/details/1734.html).
+- 万储诚, 2025, [IV：形形色色的IV](https://www.lianxh.cn/details/1583.html).
+- 张弛, 2025, [找不到IV？如何借助大语言模型寻找工具变量](https://www.lianxh.cn/details/1575.html).
+- 雷诺, 2024, [IV-控制函数法-内生性和 Hausman 检验的原理解读](https://www.lianxh.cn/details/1331.html).
+- 雷诺, 2024, [IV的标准动作：工具变量法实用指南](https://www.lianxh.cn/details/1351.html).
+- 吴梦萱, 2024, [Stata-IV：csa2sls - 诸多工具变量的应对方法](https://www.lianxh.cn/details/1346.html).
+- 陈佳慧, 2024, [Stata：边际效应的故事之IV-Probit-margins-ml](https://www.lianxh.cn/details/1519.html).
+- 李梦馨, 2024, [ivreghdfe 命令安装失败解决方法](https://www.lianxh.cn/details/1477.html).
+- 李萌, 2024, [weakivtest2：允许异方差和序列相关的弱工具变量检验方法](https://www.lianxh.cn/details/1504.html).
+- 黎佳迅, 2024, [再中心化IV：Shift-Share IV的新变种](https://www.lianxh.cn/details/1398.html).
+- 窦艺, 2023, [IV-面板内生性：严格外生性如何检验？](https://www.lianxh.cn/details/1243.html).
+- 梁珈源, 2023, [Stata：两阶段面板IV估计-xtivdfreg](https://www.lianxh.cn/details/1229.html).
+- 连玉君, 2023, [ivreghdfe-高维固定效应IV估计：错误信息处理-817 lines skipped](https://www.lianxh.cn/details/1299.html).
+- 连玉君, 2023, [ivreghdfe-高维固定效应IV估计：错误信息处理-817 lines skipped](https://www.lianxh.cn/details/1318.html).
+- 雷诺, 2023, [好IV坏控制：一个好的工具变量一定是个坏的控制变量](https://www.lianxh.cn/details/1271.html).
+- 张瑞, 2023, [工具变量：与朱熹书院距离作为IV](https://www.lianxh.cn/details/1124.html).
+- 陈晓淇, 2023, [论文复现：装模做样的IV](https://www.lianxh.cn/details/1151.html).
+- 秦范, 2022, [Stata论文复现：份额移动法工具变量(Shift-Share IV)](https://www.lianxh.cn/details/912.html).
+- 陈云菲, 2022, [Stata：IV-Lasso经典论文介绍](https://www.lianxh.cn/details/1072.html).
+- 董洁妙, 2022, [Stata：IV估计新方法-ivreg2m](https://www.lianxh.cn/details/1023.html).
+- 蔡金威, 2022, [Stata：IV和OLS估计系数差异分解-ivolsdec](https://www.lianxh.cn/details/1129.html).
+- 关欣, 2022, [Stata：基于IV的因果中介分析-ivmediate](https://www.lianxh.cn/details/914.html).
+- 张蛟蛟, 2022, [Stata：无需IV的自选择模型-egregsel](https://www.lianxh.cn/details/143.html).
+- 康瑜欣, 2022, [Stata：高度共线性情况下的IV估计-pariv](https://www.lianxh.cn/details/1117.html).
+- 徐婷, 2022, [使用Shock-IV的文献汇总](https://www.lianxh.cn/details/1041.html).
+- 杨柳, 2022, [内生性检验与过度识别检验](https://www.lianxh.cn/details/988.html).
+- 肖蕊, 2022, [工具变量法：IV估计的信与不信](https://www.lianxh.cn/details/876.html).
+- 韩杰, 2022, [工具变量：Shock-IV中预处理平衡的必要性](https://www.lianxh.cn/details/964.html).
+- 王美甜, 2022, [工具变量：教育回报IV探讨](https://www.lianxh.cn/details/1107.html).
+- 韩杰, 2022, [工具变量：顶刊中的Shock-IV整理](https://www.lianxh.cn/details/972.html).
+- 陈卓然, 2022, [敏感性分析A-理论基础：控制变量内生时的系数敏感性分析-regsensitivity](https://www.lianxh.cn/details/1007.html).
+- 陈卓然, 2022, [敏感性分析B-Stata实操：控制变量内生时的系数敏感性分析-regsensitivity](https://www.lianxh.cn/details/1010.html).
+- 王舒瑶, 2022, [第三种内生性：衡量偏误(测量误差)如何解决？-eivreg-sem](https://www.lianxh.cn/details/1066.html).
+- 尚佳雪, 2022, [论文推介：IV-天气是好的工具变量吗？](https://www.lianxh.cn/details/1136.html).
+- 张子楠, 2021, [IV估计中的外部有效性(External Validity)](https://www.lianxh.cn/details/634.html).
+- 秦范, 2021, [IV在哪里？奇思妙想的工具变量](https://www.lianxh.cn/details/619.html).
+- 周璐, 2021, [LaTeX小白入门：TeXLive安装及使用](https://www.lianxh.cn/details/650.html).
+- 许梦洁, 2021, [Python爬虫：从SEC-EDGAR爬取股东治理数据-Shareholder-Activism](https://www.lianxh.cn/details/744.html).
+- 张子楠, 2021, [Stata：当工具变量小于内生变量时，该如何估计？-mmeiv](https://www.lianxh.cn/details/727.html).
+- 江鑫, 2021, [Stata：无需工具变量的IV估计-kinkyreg-](https://www.lianxh.cn/details/740.html).
+- 甘徐沁, 2021, [Stata：最牛IV-Shift Share IV 实操-ssaggregate](https://www.lianxh.cn/details/811.html).
+- 王晓娟, 甘徐沁, 2021, [regife：面板交互固定效应模型-Interactive Fixed Effect](https://www.lianxh.cn/details/42.html).
+- 苗妙, 2021, [twostepweakiv：弱工具变量有多弱？](https://www.lianxh.cn/details/524.html).
+- 吴煜铭, 郑浩文, 2021, [内生性！内生性！解决方法大集合](https://www.lianxh.cn/details/579.html).
+- 连玉君, 2021, [内生性：来源及处理方法-幻灯片下载](https://www.lianxh.cn/details/538.html).
+- 王如玉, 2021, [多个(弱)工具变量如何应对-IV-mivreg？](https://www.lianxh.cn/details/521.html).
+- 杨柳, 2020, [IV 经典：寻找 IV 的足迹——Card（1993）](https://www.lianxh.cn/details/255.html).
+- 连享会, 2020, [IV-估计：工具变量不外生时也可以用！](https://www.lianxh.cn/details/272.html).
+- 甘徐沁, 2020, [IV-工具变量法：第一阶段系数符号确定时的小样本无偏估计](https://www.lianxh.cn/details/481.html).
+- 高娜娜, 2020, [IV：可以用内生变量的滞后项做工具变量吗？](https://www.lianxh.cn/details/297.html).
+- 甘徐沁, 2020, [IV：工具变量不满足外生性怎么办？](https://www.lianxh.cn/details/496.html).
+- 贺旭, 冀云阳, 2020, [Sargan+Hansen：过度识别检验及Stata实现](https://www.lianxh.cn/details/258.html).
+- 杨柳, 连玉君, 2020, [Stata: 工具变量法 (IV) 也不难呀！](https://www.lianxh.cn/details/31.html).
+- 徐云娇, 2020, [工具变量-IV：排他性约束及经典文献解读](https://www.lianxh.cn/details/241.html).
+- 连享会, 2020, [连享会Live - 我的特斯拉-实证研究设计](https://www.lianxh.cn/details/11.html).
+
+:::
+
+## RDD、RKD 与边界识别
+
+::: {.resource-list}
+
+- 张荫泽, 2026, [地理回归断点设计(上)：用经纬度距离替代朴素距离作为驱动变量](https://www.lianxh.cn/details/1792.html).
+- 张荫泽, 2026, [地理回归断点设计(下)：R 语言复现与新泽西州竞选广告案例](https://www.lianxh.cn/details/1793.html).
+- 王曦池, 2023, [RDD-断点回归：实践指南](https://www.lianxh.cn/details/1193.html).
+- 黄思佳, 2023, [Stata：pzms-RDD和RKD的最优模型选择](https://www.lianxh.cn/details/1194.html).
+- 张迪, 2022, [Stata论文复现：适用于小样本的RDD](https://www.lianxh.cn/details/1054.html).
+- 高净鹤, 2022, [Stata：RDD与RKD的最优模型选择-pzms](https://www.lianxh.cn/details/1079.html).
+- 黄天泽, 2022, [rddensity-RDD中的平滑性检验和操纵检验](https://www.lianxh.cn/details/869.html).
+- 林育莉, 2021, [RDD断点回归：多个断点多个分配变量如何处理](https://www.lianxh.cn/details/665.html).
+- 谭睿鹏, 2021, [RDD：断点回归可以加入控制变量吗？](https://www.lianxh.cn/details/517.html).
+- 邱紫烨, 2021, [RDD：离散变量可以作为断点回归的分配变量吗？](https://www.lianxh.cn/details/565.html).
+- 曹昊煜, 2021, [Stata+R：一文读懂精确断点回归-RDD](https://www.lianxh.cn/details/590.html).
+- 连玉君, 2021, [rddensity, lpdensity无法安装？那就手动安装](https://www.lianxh.cn/details/518.html).
+- 郑伊达, 2021, [倒U型+RDD：利用断点回归检验 U 形关系](https://www.lianxh.cn/details/837.html).
+- 张子楠, 2021, [当PSM遇上RDD：rddsga命令详解](https://www.lianxh.cn/details/661.html).
+- 亢延锟, 2020, [RDD 最新进展：多断点 RDD、多分配变量 RDD](https://www.lianxh.cn/details/40.html).
+- 崔颖, 2020, [RDD：断点回归的非参数估计及Stata实现](https://www.lianxh.cn/details/159.html).
+- 连玉君, 2020, [Stata 新命令：多断点 RDD 分析 - rdmc](https://www.lianxh.cn/details/26.html).
+- 连享会, 2020, [Stata: 两本断点回归分析 (RDD) 易懂教程](https://www.lianxh.cn/details/66.html).
+- 李鑫, 2020, [Stata: 断点回归 (RDD) 中的平滑性检验](https://www.lianxh.cn/details/118.html).
+- 连享会, 2020, [Stata：RDD-中可以加入控制变量](https://www.lianxh.cn/details/371.html).
+- 连享会, 2020, [Stata：两本断点回归分析-RDD-易懂教程](https://www.lianxh.cn/details/372.html).
+- 张子楠, 2020, [Stata：断点回归RDD简明教程](https://www.lianxh.cn/details/134.html).
+- 连享会, 2020, [Stata：断点回归分析-(RDD)-文献和命令](https://www.lianxh.cn/details/271.html).
+- 连享会, 2020, [Stata：断点回归分析-RDD-文献和命令](https://www.lianxh.cn/details/391.html).
+- 谭睿鹏, 2020, [Stata：时间断点回归RDD的几个要点](https://www.lianxh.cn/details/208.html).
+- 李琼琼, 2020, [断点回归RDD：样本少时如何做？](https://www.lianxh.cn/details/427.html).
+
+:::
+
+## 合成控制、匹配与因果推断扩展
+
+::: {.resource-list}
+
+- 孙碧洋, 2025, [受访者驱动抽样：Stata/R/Python 实操指南](https://www.lianxh.cn/details/1631.html).
+- 连玉君, 2025, [异质性分析：如何避免“事后看碟下菜”？](https://www.lianxh.cn/details/1556.html).
+- 连玉君, 2025, [异质性分析：揭示理论成立的边界条件](https://www.lianxh.cn/details/1555.html).
+- 马英杰, 2025, [论文复现：合成控制法需要做哪些假设检验？](https://www.lianxh.cn/details/1570.html).
+- 杨凡佳, 2024, [Stata+R：你了解什么是抽样吗？Sampling](https://www.lianxh.cn/details/1359.html).
+- 浦进博, 2024, [Stata：非参数合成控制法命令—npsynth](https://www.lianxh.cn/details/1458.html).
+- 浦进博, 2024, [合成控制法最新进展！机器学习+SCM！-qcm](https://www.lianxh.cn/details/1515.html).
+- 汪京, 2024, [控制变量：对所有可能的控制变量组合进行测试](https://www.lianxh.cn/details/1516.html).
+- 黄晨晨, 2024, [用因子模型克服遗漏变量偏误：论文复现和解读](https://www.lianxh.cn/details/1496.html).
+- 邹恬华, 2021, [遗漏变量？敏感性分析！新命令sensemakr](https://www.lianxh.cn/details/621.html).
+- 李安琪, 2020, [Change-in-Change（CIC）：双重变化模型](https://www.lianxh.cn/details/438.html).
+
+:::
+
+## 论文复现、研究设计与文献线索
+
+::: {.resource-list}
+
+- 丁闪闪, 2025, [质性研究：不跑回归也很有趣](https://www.lianxh.cn/details/1719.html).
+- 郑宇, 徐文曦, 2024, [顶刊编辑的投稿建议：定量研究要注意什么？](https://www.lianxh.cn/details/1530.html).
+- 吕大兴, 2023, [论文复现：基于组级纵向数据评估政策的试验模拟方法](https://www.lianxh.cn/details/1145.html).
+- 连享会, 2022, [连享会主页-推文列表-按时间](https://www.lianxh.cn/details/449.html).
+- 连享会, 2022, [连享会主页-推文列表-按类别](https://www.lianxh.cn/details/448.html).
+
+:::
+
+## 数据、文本与工具
+
+::: {.resource-list}
+
+- 赵月川, 2025, [Stata新命令-rfbunch：聚束效应的估计与实现](https://www.lianxh.cn/details/1619.html).
+- 连玉君, 2024, [TeXStudio：无法正常显示中文字符怎么办？](https://www.lianxh.cn/details/1488.html).
+- 修博文, 2024, [爬取政府工作报告文本-Python](https://www.lianxh.cn/details/1354.html).
+- 吴小齐, 2023, [R语言：L2 Boosting 在经济学中的应用](https://www.lianxh.cn/details/1288.html).
+- 闫钊鹏, 2023, [R语言：gtExtras包-绘制漂亮的表格和图形](https://www.lianxh.cn/details/1311.html).
+- 连享会, 2023, [新版lianxh命令发布了！在Stata中搜索连享会推文](https://www.lianxh.cn/details/1296.html).
+- 连享会, 2020, [ssc install lianxh：在 Stata 中快速搜索连享会推文](https://www.lianxh.cn/details/233.html).
+
+:::
+
+## 其他相关资源
+
+::: {.resource-list}
+
+- 连小白, 2025, [交互项要不要加？理论解释与实操建议](https://www.lianxh.cn/details/1707.html).
+- 吴茜, 2025, [我们需要因果 AI：Judea Pearl 聊 AI 的未来](https://www.lianxh.cn/details/1655.html).
+- 刘正清, 2025, [被盯上的 EJ 论文：从被质疑到漂亮反击](https://www.lianxh.cn/details/1552.html).
+- 黄晨晨, 2024, [Lasso-SFA：基于自适应Lasso的面板固定效应随机边界分析](https://www.lianxh.cn/details/1374.html).
+- 叶颖琛, 2023, [三重差分：碳减排政策的真实效应：财务约束与溢出效应](https://www.lianxh.cn/details/1191.html).
+- 彭甲超, 2022, [Stata：高效实现面板回归控制法-rcm](https://www.lianxh.cn/details/885.html).
+- 胡雨霄, 2020, [R2分解：相对重要性分析 (Dominance Analysis)](https://www.lianxh.cn/details/52.html).
+- 崔颖, 2020, [Stata：用负二项分布预测蚊子存活率](https://www.lianxh.cn/details/399.html).
+
+:::

@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
 
-  # 每次 quarto render 前自动运行：
+  # 每次渲染前自动运行脚本：
   # 1. 从 Excel 生成 CSV
   # 2. 从 Excel 生成 appendix_policy_list.md
   pre-render:
@@ -15,20 +15,26 @@ project:
     - methods.qmd
     - cards.qmd
     - appendix_policy_list.md
+    - lianxh_resources.qmd
     - references.qmd
     - cards/*.qmd
 
-  # 确保数据文件被复制到 _site/data/，供网页下载
+  # 确保数据和图片被复制到 _site/，供网页访问和下载
   resources:
     - data/*.xlsx
     - data/*.csv
     - data/*.md
+    - images/*
 
 website:
   title: "China Policy Shocks"
+  description: "A curated database of China policy shocks for empirical research and causal inference."
   site-url: "https://lianxhcn.github.io/china-policy-shocks/"
   repo-url: "https://github.com/lianxhcn/china-policy-shocks"
   repo-branch: main
+
+  # 浏览器标签页小图标
+  favicon: images/logo.png
 
   search: true
 
@@ -45,17 +51,23 @@ website:
         text: 政策卡片
       - href: appendix_policy_list.md
         text: 政策汇编
-      - href: references.qmd
-        text: 参考文献
+      - text: 连享会资源
+        menu:
+          - href: lianxh_resources.qmd
+            text: 推文资源
+          - href: https://www.lianxh.cn
+            text: 连享会主页
 
     right:
+      - href: https://www.lianxh.cn
+        text: 连享会
       - icon: github
         href: "https://github.com/lianxhcn/china-policy-shocks"
         aria-label: GitHub
 
   page-footer:
     left: "China Policy Shocks"
-    right: "Built with Quarto and GitHub Pages"
+    right: "Built with Quarto and GitHub Pages · [lianxh.cn](https://www.lianxh.cn)"
 
 format:
   html:

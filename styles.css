@@ -1,12 +1,73 @@
-/* Basic readability tweaks */
-body {
-  line-height: 1.75;
+/* China Policy Shocks custom styles */
+
+/* Homepage cover image */
+.hero-cover {
+  display: block;
+  width: min(100%, 860px);
+  margin: 1.2rem auto 2rem auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.10);
 }
 
-table {
-  font-size: 0.92rem;
+/* Homepage buttons */
+.btn {
+  margin-right: 0.45rem;
+  margin-bottom: 0.45rem;
 }
 
-.callout-note, .callout-tip, .callout-warning {
+/* Homepage card grid */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1.4rem 0 2rem 0;
+}
+
+.home-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.05rem 1.15rem;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06);
+}
+
+.home-card h3 {
+  margin-top: 0;
+  font-size: 1.12rem;
+}
+
+.home-card p {
+  color: #334155;
+  line-height: 1.65;
+}
+
+/* Lianxh resources page */
+.resource-note {
+  padding: 1rem 1.15rem;
+  border-left: 4px solid #b91c1c;
+  background: #fff7f7;
   border-radius: 8px;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.resource-list li {
+  margin-bottom: 0.35rem;
+  line-height: 1.55;
+}
+
+/* Make external lianxh links visually clean */
+a[href*="lianxh.cn"] {
+  font-weight: 500;
+}
+
+/* Improve mobile display */
+@media (max-width: 720px) {
+  .hero-cover {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
 }
