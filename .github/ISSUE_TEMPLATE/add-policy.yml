@@ -1,0 +1,40 @@
+name: 新增政策冲击
+about: 建议补充一项政策冲击
+title: "[新增政策] "
+labels: enhancement
+body:
+  - type: input
+    id: policy_name
+    attributes:
+      label: 政策名称
+      description: 请填写政策名称
+    validations:
+      required: true
+  - type: input
+    id: official_source
+    attributes:
+      label: 官方来源
+      description: 请提供官方文件或权威来源链接
+    validations:
+      required: true
+  - type: textarea
+    id: treatment
+    attributes:
+      label: 处理组定义
+      description: 谁受到政策影响？如何在数据中识别？
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: 数据接口
+      description: 可以和哪些数据合并？合并键是什么？
+    validations:
+      required: false
+  - type: textarea
+    id: risks
+    attributes:
+      label: 识别风险
+      description: 可能存在什么识别问题？
+    validations:
+      required: false

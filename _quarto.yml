@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "China Policy Shocks"
+  site-url: "https://lianxhcn.github.io/china-policy-shocks/"
+  repo-url: "https://github.com/lianxhcn/china-policy-shocks"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: database.qmd
+        text: 数据库
+      - href: methods.qmd
+        text: 方法说明
+      - href: cards.qmd
+        text: 政策卡片
+      - href: references.qmd
+        text: 参考文献
+    right:
+      - icon: github
+        href: "https://github.com/lianxhcn/china-policy-shocks"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    code-copy: true
+    css: styles.css

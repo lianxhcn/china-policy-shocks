@@ -1,0 +1,35 @@
+---
+title: "参考文献与官方来源"
+---
+
+本页只列当前版本四张示范卡片使用的核心来源。正式论文写作前，应重新核验政策原文、数据口径和文献版本。
+
+## 官方来源
+
+- USTR. China Section 301-Tariff Actions and Exclusion Process. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions).
+- USTR. `$34 Billion Trade Action (List 1)`. [Link](https://ustr.gov/issue-areas/enforcement/section-301-investigations/section-301-china/34-billion-trade-action).
+- 生态环境部. 2016 年第一批中央环境保护督察进驻信息. [Link](https://www.mee.gov.cn/gkml/sthjbgw/qt/201607/t20160719_360975.htm).
+- 中国证监会. 关于在上海证券交易所设立科创板并试点注册制的实施意见. [Link](https://www.csrc.gov.cn/csrc/c101950/c1048046/content.shtml).
+- 上海证券交易所科创板. [Link](https://star.sse.com.cn/).
+- 国家医保局. 关于国家组织药品集中采购试点相关问题的政策问答. [Link](https://www.nhsa.gov.cn/art/2018/12/8/art_147_857.html).
+- 辽宁省医疗保障局. `4+7` 城市药品集中采购工作启动. [Link](https://ybj.ln.gov.cn/ybj/zxzx/gzdt/F18AFFEB61C64CE98315DE058D1D63B2/index.shtml).
+
+## 代表性文献
+
+- Fajgelbaum, P. D., & Khandelwal, A. K. (2022). The economic impacts of the US–China trade war. *Annual Review of Economics*, 14, 205-228. [Link](https://doi.org/10.1146/annurev-economics-051420-110410), [Google](<https://scholar.google.com/scholar?q=The+economic+impacts+of+the+US-China+trade+war>).
+
+- Sheng, L., Song, H., & Zheng, X. (2025). How did Chinese exporters manage the trade war? *Journal of International Money and Finance*, 153, 103300. [Link](https://doi.org/10.1016/j.jimonfin.2025.103300), [Google](<https://scholar.google.com/scholar?q=How+did+Chinese+exporters+manage+the+trade+war>).
+
+- Qian, X., Ding, H., & Ding, Z. (2023). Governmental inspection and firm environmental protection expenditure: Evidence from China. *Economic Modelling*, 123, 106284. [Link](https://doi.org/10.1016/j.econmod.2023.106284), [Google](<https://scholar.google.com/scholar?q=Governmental+inspection+and+firm+environmental+protection+expenditure+Evidence+from+China>).
+
+- Wang, J., Dong, H., & Xiao, R. (2022). Central environmental inspection and corporate environmental investment: Evidence from Chinese listed companies. *Environmental Science and Pollution Research*, 29, 56419-56429. [Link](https://doi.org/10.1007/s11356-022-19538-8), [Google](<https://scholar.google.com/scholar?q=Central+environmental+inspection+and+corporate+environmental+investment+evidence+from+Chinese+listed+companies>).
+
+- Li, J., & Li, R. (2022). IPO policy and IPO underpricing: Evidence from the registration-based IPO reform in China. *Finance Research Letters*, 47, 102623. [Link](https://doi.org/10.1016/j.frl.2021.102623), [Google](<https://scholar.google.com/scholar?q=IPO+policy+and+IPO+underpricing+Evidence+from+the+registration-based+IPO+reform+in+China>).
+
+- Li, Q., & He, M. (2024). The registration-based IPO reform and the cost of equity capital: Evidence from China. *Finance Research Letters*, 67, 105790. [Link](https://doi.org/10.1016/j.frl.2024.105790), [Google](<https://scholar.google.com/scholar?q=The+registration-based+IPO+reform+and+the+cost+of+equity+capital+evidence+from+China>).
+
+- Hu, Y., Chen, S., Qiu, F., et al. (2021). Will the volume-based procurement policy promote pharmaceutical firms’ R&D investment in China? An event study approach. *International Journal of Environmental Research and Public Health*, 18(22), 12037. [Link](https://doi.org/10.3390/ijerph182212037), [Google](<https://scholar.google.com/scholar?q=Will+the+Volume-Based+Procurement+Policy+Promote+Pharmaceutical+Firms+R%26D+Investment+in+China>).
+
+- Li, X., & Xu, J. (2024). Does China’s national volume-based drug procurement policy promote or hinder pharmaceutical innovation? *Frontiers in Pharmacology*, 15, 1392239. [Link](https://doi.org/10.3389/fphar.2024.1392239), [Google](<https://scholar.google.com/scholar?q=Does+China%27s+national+volume-based+drug+procurement+policy+promote+or+hinder+pharmaceutical+innovation>).
+
+- Qiu, F., Chen, S., Li, Y., Wang, X., & Zhu, M. (2025). The impact of the centralized volume-based procurement policy on Chinese pharmaceutical manufacturing firms’ R&D investment: A difference-in-differences approach. *PLOS ONE*, 20(1), e0315811. [Link](https://doi.org/10.1371/journal.pone.0315811), [Google](<https://scholar.google.com/scholar?q=The+impact+of+the+centralized+volume-based+procurement+policy+on+Chinese+pharmaceutical+manufacturing+firms+R%26D+investment>).

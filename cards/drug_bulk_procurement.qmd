@@ -1,0 +1,114 @@
+---
+title: "国家组织药品集中带量采购"
+---
+
+## 1. 政策事实
+
+国家组织药品集中采购试点采用「国家组织、联盟采购、平台操作」的组织形式。国家医保局资料说明，试点将 11 个试点城市公立医疗机构分散的药品采购量集中起来，形成规模团购效应，并强调带量采购、质量标准和公平竞争。公开资料显示，`4+7` 试点地区包括北京、天津、上海、重庆和沈阳、大连、厦门、广州、深圳、成都、西安 11 个城市。
+
+这项政策的研究价值在于：政策对象非常具体，落在药品、企业和城市层面。它适合示范如何在产品、企业和地区之间构造处理变量。
+
+## 2. 适合研究的问题
+
+这项政策适合研究：
+
+- 药品价格是否下降；
+- 中选企业和未中选企业市场份额如何变化；
+- 医药企业销售费用是否下降；
+- 企业研发投入是否增加；
+- 仿制药一致性评价和产品质量是否成为竞争优势；
+- 医保基金支出是否下降；
+- 医院用药结构是否变化；
+- 医药行业集中度是否提高。
+
+## 3. 政策对象和处理组
+
+药品集采不能把「所有医药企业」简单定义为处理组。真正受冲击的是特定通用名、特定规格、特定城市、特定中选或未中选企业。
+
+| 层级 | 处理组定义 |
+|---|---|
+| 药品层面 | 被纳入集中采购目录的药品 |
+| 企业-药品层面 | 对应药品的中选企业或未中选企业 |
+| 城市层面 | `4+7` 试点城市 |
+| 企业层面 | 政策前收入高度依赖被纳入药品的企业 |
+
+这项政策的关键不是设一个「医药企业 × 政策后」，而是尽量下沉到药品和企业-药品层面。
+
+## 4. 处理变量如何定义
+
+药品层面的处理变量可以写成：
+
+$$
+\operatorname{Included}_{d}=1\{d\ \operatorname{is\ included\ in\ centralized\ procurement}\}
+$$
+
+企业-药品层面的中选变量可以写成：
+
+$$
+\operatorname{Winner}_{fd}=1\{f\ \operatorname{wins\ procurement\ for\ drug}\ d\}
+$$
+
+如果有药品-城市-时间层面数据，可以使用三重差分：
+
+$$
+Y_{dct}=\alpha+\beta(\operatorname{Included}_{d}\times \operatorname{PilotCity}_{c}\times \operatorname{Post}_{t})+\mu_{dc}+\lambda_{ct}+\eta_{dt}+\varepsilon_{dct}
+$$
+
+其中，$d$ 是药品，$c$ 是城市。这个设定同时利用药品是否纳入、城市是否试点和政策前后变化。
+
+如果研究上市医药企业，可以构造企业政策暴露度：
+
+$$
+\operatorname{Exposure}_{f}=\sum_{d}s_{fd,0}\operatorname{Included}_{d}
+$$
+
+其中，$s_{fd,0}$ 是企业 $f$ 在政策前相关药品销售收入占比。若能区分中选和未中选，可进一步写成中选暴露度和未中选暴露度。
+
+## 5. 数据接口
+
+可用数据包括：
+
+| 数据 | 作用 | 合并键 |
+|---|---|---|
+| 联采办或医保局中选结果 | 中选药品、中选企业、中选价格 | 药品通用名、规格、企业名称 |
+| 药品编码和通用名数据 | 统一药品名称和规格 | 药品编码、通用名 |
+| 医院药品采购数据 | 药品价格和采购量 | 药品编码、城市、医院 |
+| 医药上市公司年报 | 分产品收入、销售费用、研发投入 | 企业名称、股票代码 |
+| CSMAR / Wind | 财务和市场反应 | 股票代码 |
+| 医药销售数据库 | 销售额、市场份额 | 药品名称、企业名称、城市 |
+
+在实际操作中，药品名称、规格和企业名称的清洗工作很重。处理组定义往往不是计量模型本身，而是前期数据匹配工作。
+
+## 6. 识别风险
+
+主要风险包括：
+
+- 不能把所有医药企业都当作处理组；
+- 中选企业和未中选企业受到的冲击方向可能不同；
+- 药品是否纳入目录可能与市场规模、竞争格局和一致性评价进度有关；
+- 企业层面暴露度需要用政策前产品收入权重构造；
+- 政策可能同时影响价格、采购量、销售费用和研发投入，机制需要区分。
+
+特别需要说明的是，中选不一定是单纯利好。中选企业可能获得采购量，但价格大幅下降；未中选企业可能失去公立医院市场；同类药品也可能因为价格体系重估而受到外溢影响。
+
+## 7. 可扩展研究问题
+
+- 集采是否降低药品价格和医保支出？
+- 集采是否压缩销售费用并推动研发投入？
+- 中选企业是否通过规模换取利润，还是利润率下降？
+- 未中选企业是否转向院外市场或其他产品？
+- 集采是否提高医药行业集中度？
+- 政策是否改变创新数量与创新质量之间的权衡？
+
+## 8. 官方来源和代表性文献
+
+**官方来源**：
+
+- 国家医保局. 关于国家组织药品集中采购试点相关问题的政策问答. <https://www.nhsa.gov.cn/art/2018/12/8/art_147_857.html>
+- 辽宁省医疗保障局. `4+7` 城市药品集中采购工作启动. <https://ybj.ln.gov.cn/ybj/zxzx/gzdt/F18AFFEB61C64CE98315DE058D1D63B2/index.shtml>
+
+**代表性文献**：
+
+- Hu, Y., Chen, S., Qiu, F., et al. (2021). Will the volume-based procurement policy promote pharmaceutical firms’ R&D investment in China? An event study approach. *International Journal of Environmental Research and Public Health*, 18(22), 12037. [Link](https://doi.org/10.3390/ijerph182212037), [Google](<https://scholar.google.com/scholar?q=Will+the+Volume-Based+Procurement+Policy+Promote+Pharmaceutical+Firms+R%26D+Investment+in+China>).
+- Li, X., & Xu, J. (2024). Does China’s national volume-based drug procurement policy promote or hinder pharmaceutical innovation? *Frontiers in Pharmacology*, 15, 1392239. [Link](https://doi.org/10.3389/fphar.2024.1392239), [Google](<https://scholar.google.com/scholar?q=Does+China%27s+national+volume-based+drug+procurement+policy+promote+or+hinder+pharmaceutical+innovation>).
+- Qiu, F., Chen, S., Li, Y., Wang, X., & Zhu, M. (2025). The impact of the centralized volume-based procurement policy on Chinese pharmaceutical manufacturing firms’ R&D investment: A difference-in-differences approach. *PLOS ONE*, 20(1), e0315811. [Link](https://doi.org/10.1371/journal.pone.0315811), [Google](<https://scholar.google.com/scholar?q=The+impact+of+the+centralized+volume-based+procurement+policy+on+Chinese+pharmaceutical+manufacturing+firms+R%26D+investment>).

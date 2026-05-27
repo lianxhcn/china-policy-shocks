@@ -1,0 +1,15 @@
+# Quarto output
+_site/
+.quarto/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Office temp
+~$*.xlsx

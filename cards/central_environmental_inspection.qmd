@@ -1,0 +1,112 @@
+---
+title: "中央生态环境保护督察"
+---
+
+## 1. 政策事实
+
+中央生态环境保护督察是中国环境监管体制中的重要制度安排。2016 年第一批中央环境保护督察启动，中央环保督察组进驻部分省区开展督察。生态环境部公开资料显示，第一批督察对象包括内蒙古、黑龙江、江苏、江西、河南、广西、云南、宁夏等 8 个省区，进驻时间约为 1 个月，并设立值班电话和邮政信箱受理环境问题举报。
+
+该政策的研究价值在于：督察具有分批进驻特征，政策冲击时间较清楚；同时，它直接改变地方政府和企业面临的环境监管压力，适合研究监管、企业行为和环境绩效。
+
+## 2. 适合研究的问题
+
+这项政策适合研究：
+
+- 企业污染排放是否下降；
+- 企业环保投资是否增加；
+- 高污染企业是否减少产出、投资或扩张；
+- 企业绿色专利是否增加；
+- 地方政府是否加大环保处罚力度；
+- 空气质量和水质是否改善；
+- 环境监管是否影响就业、工业产出和地方财政。
+
+中央环保督察也适合用来讨论「运动式治理」与常规环境监管之间的关系。
+
+## 3. 政策对象和处理组
+
+政策原始对象是省级行政区和地方党委政府，但研究中常常关注企业、城市或行业。处理变量至少可以有四个层级：
+
+| 层级 | 处理变量 |
+|---|---|
+| 省份层面 | 省份是否被中央环保督察进驻 |
+| 城市层面 | 城市所在省份是否被督察，或城市是否被通报 |
+| 企业层面 | 企业所在地是否进入督察期 |
+| 企业-污染暴露层面 | 督察进驻 × 高污染企业 |
+
+最粗的处理组是被督察省份中的所有企业。但如果研究企业污染治理，更合适的处理组通常是「被督察地区中的高污染企业」或「重点排污单位」。
+
+## 4. 处理变量如何定义
+
+省份-年份层面的处理变量可以写成：
+
+$$
+\operatorname{Inspect}_{pt}=1\{p\ \operatorname{is\ inspected\ by\ year}\ t\}
+$$
+
+其中，$p$ 是省份，$t$ 是年份。如果企业 $i$ 位于省份 $p$，可以将该变量合并到企业层面：
+
+$$
+Y_{it}=\alpha+\beta\operatorname{Inspect}_{pt}+X_{it}'\gamma+\mu_{i}+\lambda_{t}+\varepsilon_{it}
+$$
+
+但这个设定容易过粗。更推荐引入企业污染暴露度：
+
+$$
+Y_{it}=\alpha+\beta(\operatorname{Inspect}_{pt}\times \operatorname{Polluting}_{i})+X_{it}'\gamma+\mu_{i}+\lambda_{t}+\varepsilon_{it}
+$$
+
+其中，$\operatorname{Polluting}_{i}$ 可以用高污染行业、重点排污单位、历史排污强度、排污许可证、环保处罚记录等定义。
+
+如果有月度空气质量数据或处罚数据，也可以把冲击时间细化到进驻月份：
+
+$$
+Y_{cmt}=\alpha+\beta\operatorname{Inspect}_{cm}+X_{cmt}'\gamma+\mu_{c}+\lambda_{m}+\varepsilon_{cmt}
+$$
+
+其中，$c$ 是城市，$m$ 是月份。
+
+## 5. 数据接口
+
+可用数据包括：
+
+| 数据 | 作用 | 合并键 |
+|---|---|---|
+| 中央环保督察进驻批次 | 构造督察时间 | 省份、年份、月份 |
+| 工业企业数据库 | 企业产出、就业、利润、生产率 | 企业名称、地区 |
+| 上市公司数据 | 财务、投资、环保支出、绿色创新 | 股票代码、企业名称、注册地 |
+| 重点排污单位名录 | 定义高污染暴露 | 企业名称、统一社会信用代码 |
+| 排污许可数据 | 定义企业污染暴露 | 企业名称、许可证编号 |
+| 环保处罚数据 | 衡量监管执行 | 企业名称、城市、处罚日期 |
+| 空气质量数据 | 衡量环境绩效 | 城市、日期 |
+| 专利数据 | 衡量绿色创新 | 企业名称、专利分类号 |
+
+## 6. 识别风险
+
+中央环保督察是一个好政策冲击，但不能机械套用 DID。主要风险包括：
+
+- 督察批次和顺序可能并非完全随机；
+- 企业和地方政府可能在进驻前已经预期督察；
+- 督察影响的是监管压力，而不一定直接等于企业真实减排；
+- 地方同时期可能还有其他环保政策，形成政策叠加；
+- 使用「是否被处罚」作为处理变量时，存在选择性执法问题。
+
+因此，研究者需要明确自己识别的是哪一层效应：省份层面的督察进驻效应，城市层面的执法响应，还是企业层面的污染治理效应。
+
+## 7. 可扩展研究问题
+
+- 督察是否提高高污染企业环保投资？
+- 督察是否诱发企业短期停产而非长期绿色转型？
+- 督察是否改变地方政府环保支出和处罚行为？
+- 督察是否通过公众举报渠道改变监管信息结构？
+- 督察对国有企业和民营企业的影响是否不同？
+
+## 8. 官方来源和代表性文献
+
+**官方来源**：
+
+- 生态环境部. 2016 年第一批中央环境保护督察进驻信息. <https://www.mee.gov.cn/gkml/sthjbgw/qt/201607/t20160719_360975.htm>
+
+**代表性文献**：
+
+- Qian, X., Ding, H., & Ding, Z. (2023). Governmental inspection and firm environmental protection expenditure: Evidence from China. *Economic Modelling*, 123, 106284. [Link](https://doi.org/10.1016/j.econmod.2023.106284), [Google](<https://scholar.google.com/scholar?q=Governmental+inspection+and+firm+environmental+protection+expenditure+Evidence+from+China>).
+- Wang, J., Dong, H., & Xiao, R. (2022). Central environmental inspection and corporate environmental investment: Evidence from Chinese listed companies. *Environmental Science and Pollution Research*, 29, 56419-56429. [Link](https://doi.org/10.1007/s11356-022-19538-8), [Google](<https://scholar.google.com/scholar?q=Central+environmental+inspection+and+corporate+environmental+investment+evidence+from+Chinese+listed+companies>).

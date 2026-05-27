@@ -1,0 +1,12 @@
+/* Basic readability tweaks */
+body {
+  line-height: 1.75;
+}
+
+table {
+  font-size: 0.92rem;
+}
+
+.callout-note, .callout-tip, .callout-warning {
+  border-radius: 8px;
+}

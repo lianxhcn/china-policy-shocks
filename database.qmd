@@ -1,0 +1,52 @@
+---
+title: "数据库"
+---
+
+本页说明数据库字段和使用方式。完整数据可下载：
+
+- [Excel 版](data/policy_shock_library_v0_1.xlsx)
+- [CSV 版](data/policy_shock_library_v0_1.csv)
+
+## 字段说明
+
+| 字段 | 含义 |
+|---|---|
+| 政策名称 | 具体政策冲击 |
+| 领域 | 按研究领域分类，而不是按发文部门分类 |
+| 年份 | 政策发布、实施或主要冲击年份 |
+| 政策对象 | 政策原始作用对象，如地区、行业、产品、企业或个人 |
+| 处理组定义 | 如何把政策转化为 `Treat` 或 `Exposure` |
+| 对照组定义 | 谁可以作为比较对象 |
+| 冲击时间 | 政策何时真正进入数据 |
+| 数据合并键 | 政策对象与研究数据如何连接 |
+| 推荐方法 | DID、多期 DID、DDD、事件研究、暴露度设计等 |
+| 识别风险类型 | 试点选择、无对照组、预期效应、政策叠加等 |
+| 可用数据源 | 可连接的数据或资料来源 |
+| 推荐等级 | A / B / C |
+
+## 读取示例
+
+Python:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data/policy_shock_library_v0_1.csv")
+df.query("推荐等级 == 'A'").head()
+```
+
+Stata:
+
+```stata
+import delimited "data/policy_shock_library_v0_1.csv", clear encoding("utf-8")
+tab 领域 推荐等级
+browse
+```
+
+## 维护原则
+
+数据库不追求把所有政策都列入。新增政策应优先满足三个条件：
+
+- 处理组可以定义；
+- 冲击时间可以识别；
+- 可以与微观或地区数据合并。
