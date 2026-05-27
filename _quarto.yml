@@ -1,7 +1,13 @@
 project:
   type: website
   output-dir: _site
-
+  render:
+    - index.qmd
+    - database.qmd
+    - methods.qmd
+    - cards.qmd
+    - references.qmd
+    - cards/*.qmd
 website:
   title: "China Policy Shocks"
   site-url: "https://lianxhcn.github.io/china-policy-shocks/"
